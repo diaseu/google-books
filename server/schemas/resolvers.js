@@ -11,7 +11,7 @@ const resolvers = {
         return userData
       }
 
-      throw new AuthenticationError('Not logged in!')
+      throw new AuthenticationError('Not logged in')
     }
   },
   Mutation: {
@@ -26,13 +26,13 @@ const resolvers = {
       const user = await User.findOne({ email })
 
       if (!user) {
-        throw new AuthenticationError('Wrong credentials')
+        throw new AuthenticationError('Incorrect credentials')
       }
 
       const correct = await user.isCorrectPassword(password)
 
       if (!correct) {
-        throw new AuthenticationError('Wrong credentials')
+        throw new AuthenticationError('Incorrect credentials')
       }
 
       const token = signToken(user)
