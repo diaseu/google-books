@@ -5,7 +5,7 @@
 <img src="https://img.shields.io/github/package-json/dependency-version/diaseu/google-books/express?style=for-the-badge" alt="Express Version" />
 <img src="https://img.shields.io/github/package-json/dependency-version/diaseu/google-books/mongoose?style=for-the-badge" alt="Mongoose Version" />
 
-<img src="https://i.imgur.com/arlWz4B.png" alt="Screenshot of application" />
+<img src="https://i.imgur.com/HVhk5cU.png" alt="Screenshot of application" />
 
 Google Books Search app to utilize an API to search and save books to favorites. Searching a book in the search bar generates books, including a picture of the cover page, title, author, a description of the book, and publication date. User can save books to profile by clicking the save button.  On the Saved Books page, users can see a list of all saved books.
 
@@ -20,7 +20,7 @@ Google Books Search app to utilize an API to search and save books to favorites.
 
 ## Usage
 
-<a href="https://lit-dusk-51699.herokuapp.com/">Link to deployed application</a>
+<a href="https://quiet-reef-05633.herokuapp.com/">Link to deployed application</a>
 
 ## Technology
 
@@ -28,12 +28,14 @@ This app was built with react, express, mongoDB via mongoose, and GPL; deployed 
 
 ## Screenshots
 
+Home Page
+<img src="https://i.imgur.com/s3D3N5X.png" alt="Home Page">
 
-<img src="https://i.imgur.com/arlWz4B.png" alt="Application before going offline">
+Search Result
+<img src="https://i.imgur.com/HVhk5cU.png" alt="Search Result">
 
-<img src="https://i.imgur.com/iNIsOtX.png" alt="Deposit added while offline">
-
-<img src="https://i.imgur.com/np2zVVb.png" alt="Deposit persisting when back online">
+Saved Books
+<img src="https://i.imgur.com/Xzskbkw.png" alt="Saved Books">
 
 
 ## License
